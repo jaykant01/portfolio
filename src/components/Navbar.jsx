@@ -17,17 +17,17 @@ const Navbar = () => {
             arial-label="Linkedin">
                 <FaLinkedin />
             </a>
-            <a href="https://www.linkedin.com/in/jaykantyadav/"
-            target="_blank" 
-            rel="noopener noreferrer" 
-            arial-label="Instagram">
-                <FaInstagram />
-            </a>
             <a href="https://github.com/jaykant01"
             target="_blank" 
             rel="noopener noreferrer" 
             arial-label="Github">
                 <FaGithub />
+            </a>
+            <a href="https://www.instagram.com/jaykant_02/"
+            target="_blank" 
+            rel="noopener noreferrer" 
+            arial-label="Instagram">
+                <FaInstagram />
             </a>
             <a href="https://x.com/jaykant_02"
             target="_blank" 

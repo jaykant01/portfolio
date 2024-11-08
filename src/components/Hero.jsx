@@ -12,8 +12,12 @@ function Hero() {
             </div>
             <div className="w-full lg:w-1/2">
                 <div className="flex flex-col items-center lg:itmes-start mt-10">
-                    <h1 className="pb-16 text-6xl tracking-tighter lg:mt-16
-                    lg:text-8xl">Jaykant Yadav</h1>
+                    <h1 className="text-4xl tracking-tighter lg:mt-16
+                    lg:text-6xl ">Hello I'm</h1>
+                    <h2 className="pb-16 text-6xl tracking-tighter lg:mt-16
+                    lg:text-8xl bg-gradient-to-r from-stone-300 via-slate-500
+                     to-red-600 bg-clip-text tracking-tighter
+                    text-transparent">Jaykant Yadav</h2>
                     <span className="bg-gradient-to-r from-pink-300 via-slate-500
                      to-purple-500 bg-clip-text text-4xl tracking-tight
                     text-transparent">Computer Engineer & Developer</span>

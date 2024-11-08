@@ -5,7 +5,16 @@ import project4 from "../assets/projects/project-4.webp";
 
 export const HERO_CONTENT = `BTech Computer Science & Engineering Student at GLA University. Data Structures & Algorithms, JAVA(Proficient), Web-Development, AWS CLOUD COMPUTING, GCP - And also looking forward to do more in cloud computing. Trying My Problem Solving Skill on LeetCode, Codeforces.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `BTech Computer Science & Engineering | 3rd year Student at GLA University | Data Structures & Algorithms(JAVA) | Currently Learning Front-end development 
+
+Trying My Problem Solving Skill on LeetCode | CodeForces | CodeChef.
+
+Completed Basics of Google Cloud Platform & AWS CLOUD COMPUTING - EC2, S3, VPC, IAM | and also looking forward to do more in cloud computing.
+
+Interested in Kotlin language & Android Studio for Android & IOS Development.
+Exploring kali Linux & Cyber Security for Knowledge purpose.
+
+Like to play basket ball & Music`;
 
 export const EXPERIENCES = [
   {
