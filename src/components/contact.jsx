@@ -49,7 +49,7 @@ const Contact = () => {
                                           rows="5"
                                           placeholder='Enter You Message'/>
                             </div>
-                            <button className='bg-gradient-to-r from-stone-300 via-slate-500 to-purple-600 text-white hidden md:inline
+                            <button className='bg-gradient-to-r from-stone-300 via-slate-500 to-purple-600 text-white  md:inline
             transform transition-transform duration-300 hover:scale-105 px-8 py-2 rounded-full'>Send</button>
                         </form>
                     </div>
