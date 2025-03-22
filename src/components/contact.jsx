@@ -1,4 +1,3 @@
-import React from 'react'
 import { FaEnvelope, FaMapMarkedAlt, FaPhone } from 'react-icons/fa'
 
 const Contact = () => {
@@ -9,8 +8,8 @@ const Contact = () => {
                 <div className="flex flex-col md:flex-row items-center md:space-x-12">
                     <div className="flex-1">
                         <h3 className='text-3xl text-transparent bg-clip-text bg-gradient-to-r
-            text-purple-600 mb-4'>Let's Talk</h3>
-                        <p>I'm open to discussing web development projects or hiring opportunities.</p>
+            text-purple-600 mb-4'>Let&#39;s Talk</h3>
+                        <p>I&#39;m open to discussing web development projects or hiring opportunities.</p>
                         <div className='mb-4 mt-8'>
                             <FaEnvelope className='inline-block text-orange-500 mr-2'></FaEnvelope>
                             <a href="jaykanty24092004@gmail.com" className='hover:underline'>
