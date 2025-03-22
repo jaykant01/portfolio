@@ -1,4 +1,4 @@
-import profilePic from "../assets/jaykantYadavProfile.jpg"
+import profilePic from "../assets/projects/project-2.jpg"
 import { HERO_CONTENT } from "../constants"
 function Hero() {
   return (

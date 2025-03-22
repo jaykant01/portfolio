@@ -1,7 +1,8 @@
 import { FaGithub, FaJava, FaGitAlt, FaAws} from "react-icons/fa6"
 import {RiReactjsLine, RiNodejsLine, RiJavascriptLine, RiAngularjsLine} from "react-icons/ri"
-import { SiMongodb, SiHtml5, SiTailwindcss, SiMysql, SiDocker} from "react-icons/si"
+import {SiMongodb, SiHtml5, SiTailwindcss, SiMysql, SiDocker, SiSpring} from "react-icons/si"
 import { FcLinux, FcDebian } from "react-icons/fc";
+import {BiLogoPostgresql} from "react-icons/bi";
 
 const Technologies = () => {
   return (
@@ -26,11 +27,17 @@ const Technologies = () => {
             <div>
                 <RiAngularjsLine className="text-7xl text-red-600"/>
             </div>
+            <div className="p-4">
+                <SiSpring className="text-7xl text-green-600"/>
+            </div>
             <div>
                 <RiReactjsLine className="text-7xl text-cyan-400" />
             </div>
             <div>
                 <RiNodejsLine className="text-7xl text-green-500" />
+            </div>
+            <div>
+                <BiLogoPostgresql className="text-7xl text-blue-600" />
             </div>
             <div className="p-4">
                 <SiMongodb className="text-7xl text-green-600"/>
