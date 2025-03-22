@@ -1,8 +1,13 @@
 import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 
-
-export const HERO_CONTENT = `BTech Computer Science & Engineering Student at GLA University. Data Structures & Algorithms, JAVA (Proficient), FullStack Development, AWS Cloud Computing with A Good Problem Solving Skill.`;
+export const LINKS = [
+  { href: "#work", label: "Work" },
+  { href: "#about", label: "About" },
+  { href: "#experience", label: "Experience" },
+  { href: "#testimonials", label: "Testimonials" },
+  { href: "#contact", label: "Contact" },
+];
 
 export const ABOUT_TEXT = `BTech Computer Science & Engineering | 3rd year Student at GLA University | Data Structures & Algorithms(JAVA) | Currently Learning FullStack-development 
 
@@ -16,7 +21,7 @@ Like to play basket ball & Music`;
 
 export const PROJECTS = [
   {
-    title: "AddressBook Website",
+    title: "Address-Book Website",
     image: project1,
     description:
       "A fully functional website with features like Add, Delete, favourite contacts, and user authentication.",
