@@ -3,49 +3,17 @@ import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.webp";
 
-export const HERO_CONTENT = `BTech Computer Science & Engineering Student at GLA University. Data Structures & Algorithms, JAVA(Proficient), Web-Development, AWS CLOUD COMPUTING, GCP - And also looking forward to do more in cloud computing. Trying My Problem Solving Skill on LeetCode, Codeforces.`;
+export const HERO_CONTENT = `BTech Computer Science & Engineering Student at GLA University. Data Structures & Algorithms, JAVA(Proficient), FullStack Development, AWS CLOUD COMPUTING. A Good Problem Solving Skill.`;
 
-export const ABOUT_TEXT = `BTech Computer Science & Engineering | 3rd year Student at GLA University | Data Structures & Algorithms(JAVA) | Currently Learning Front-end development 
+export const ABOUT_TEXT = `BTech Computer Science & Engineering | 3rd year Student at GLA University | Data Structures & Algorithms(JAVA) | Currently Learning FullStack-development 
 
-Trying My Problem Solving Skill on LeetCode | CodeForces | CodeChef.
+Trying My Problem Solving Skill on LeetCode | CodeForces.
 
-Completed Basics of Google Cloud Platform & AWS CLOUD COMPUTING - EC2, S3, VPC, IAM | and also looking forward to do more in cloud computing.
+Completed Basics of AWS CLOUD COMPUTING - EC2, S3, VPC, IAM | and also looking forward to do more in cloud computing.
 
-Interested in Kotlin language & Android Studio for Android & IOS Development.
-Exploring kali Linux & Cyber Security for Knowledge purpose.
+Exploring Linux & Debian for Knowledge purpose.
 
 Like to play basket ball & Music`;
-
-export const EXPERIENCES = [
-  {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
-  },
-];
 
 export const PROJECTS = [
   {
@@ -79,7 +47,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
+  address: "",
+  phoneNo: "9112526004",
   email: "me@example.com",
 };
