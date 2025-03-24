@@ -1,4 +1,4 @@
-import profilePic from "../assets/projects/project-2.jpg"
+import profilePic from "../assets/jaykantProfile.jpg"
 import {FaInstagram, FaLinkedin} from "react-icons/fa";
 import {FaGithub, FaSquareXTwitter} from "react-icons/fa6";
 function Hero() {
@@ -21,7 +21,7 @@ function Hero() {
                     text-transparent ">Jaykant Yadav</h2>
                     <span className="bg-gradient-to-r from-pink-300 via-slate-500
                      to-purple-500 bg-clip-text text-4xl tracking-tight
-                    text-transparent">Computer Engineer & Developer</span>
+                    text-transparent">Java & FullStack Developer</span>
 
                     <div className="m-8 flex items-center justify-center gap-4 text-2xl">
                         <a href="https://www.linkedin.com/in/jaykantyadav/"

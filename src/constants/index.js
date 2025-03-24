@@ -2,11 +2,11 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 
 export const LINKS = [
-  { href: "#hero", label: "Home" },
-  { href: "#about", label: "About Me" },
-  { href: "#skills", label: "Skills" },
-  { href: "#projects", label: "Projects" },
-  { href: "#contact", label: "Contact" },
+  { href: "#Hero", label: "Home" },
+  { href: "#About", label: "About Me" },
+  { href: "#Technologies", label: "Skills" },
+  { href: "#Projects", label: "Projects" },
+  { href: "#Contact", label: "Contact" },
 ];
 
 export const ABOUT_TEXT = `BTech Computer Science & Engineering | 3rd year Student at GLA University | Data Structures & Algorithms(JAVA) | Currently Learning FullStack-development 

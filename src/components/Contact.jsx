@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div className="text-white py-20" id="contact">
             <div className="container mx-auto px-8 md:px-16 lg:px-24">
-                <h2 className="text-4xl  text-center my-10">Contact Me</h2>
+                <h2 className="text-5xl  text-center my-10">Contact Me</h2>
                 <div className="flex flex-col md:flex-row items-center md:space-x-12">
                     <div className="flex-1">
                         <h3 className='text-3xl text-transparent bg-clip-text bg-gradient-to-r
@@ -12,17 +12,17 @@ const Contact = () => {
                         <p>I&#39;m open to discussing web development projects or hiring opportunities.</p>
                         <div className='mb-4 mt-8'>
                             <FaEnvelope className='inline-block text-orange-500 mr-2'></FaEnvelope>
-                            <a href="jaykanty24092004@gmail.com" className='hover:underline'>
+                            <span className='hover:underline'>
                                 jaykanty24092004@gmail.com
-                            </a>
+                            </span>
                         </div>
                         <div className='mb-4'>
                             <FaPhone className='inline-block text-blue-700 mr-2'></FaPhone>
-                            <span>+9112526004</span>
+                            <span className='hover:underline'>+91 9112526004</span>
                         </div>
                         <div className='mb-4'>
-                            <FaMapMarkedAlt className='inline-block text-green-700 mr-2'></FaMapMarkedAlt>
-                            <span>Gla University, Mathura, UttarPradesh, India</span>
+                            <FaMapMarkedAlt className=' inline-block text-green-700 mr-2'></FaMapMarkedAlt>
+                            <span className='hover:underline'>Gla University, Mathura, UttarPradesh, India</span>
                         </div>
                     </div>
                     <div className='flex-1 w-full'>

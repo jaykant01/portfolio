@@ -15,9 +15,9 @@ const Navbar = () => {
             <div className="backdrop-blur flex justify-between items-center max-w-7xl mx-auto
             md:my-2  md:rounded-xl ">
                 <div className="text-white font-semibold text-lg uppercase">
-                    <a href="#Hero" aria-label="Home">
+                    <span >
                         <img src={logo} className="mx" width={120} height={70} alt="Logo" />
-                    </a>
+                    </span>
                 </div>
 
                 <div className="hidden md:flex space-x-8">
@@ -35,7 +35,7 @@ const Navbar = () => {
                         {menuOpen ? (
                             <RiCloseFill className="w-6 h-6" />
                             ) : (
-                                <RiMenu3Fill className="w-6 h-6" />
+                                <RiMenu3Fill className="w-6 h-6 mr-4" />
                             )}
                         </button>
                 </div>

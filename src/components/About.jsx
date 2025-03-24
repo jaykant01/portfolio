@@ -1,4 +1,4 @@
-import { ABOUT_TEXT } from "../constants";
+import {ABOUT_TEXT} from "../constants/index.js";
 const About = () => {
   return (
     <div className="border-b border-neutral-900 pb-8">
@@ -9,7 +9,9 @@ const About = () => {
         <div className="flex flex-wrap">
             <div className="w-full lg:w-full">
                 <div className="flex justify-center">
-                    <p className="my-2 max-w-6xl py-6">{ABOUT_TEXT}</p>
+                    <p className="my-2 max-w-7xl py-6 text-xl tracking-widest leading-loose">
+                        {ABOUT_TEXT}
+                    </p>
                 </div>
             </div>
         </div>
