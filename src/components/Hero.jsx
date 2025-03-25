@@ -3,7 +3,7 @@ import {FaInstagram, FaLinkedin} from "react-icons/fa";
 import {FaGithub, FaSquareXTwitter} from "react-icons/fa6";
 function Hero() {
   return (
-    <div className="border-b border-neutral-900 pt-36 pb-4 lg:mb-36">
+    <div id="Hero" className="border-b border-neutral-900 pt-36 pb-4 lg:mb-36">
         <div className="flex flex-wrap lg:flex-row-reverse">
             <div className="w-full lg:w-1/2">
                 <div className="flex justify-center lg:p-8">
@@ -18,7 +18,7 @@ function Hero() {
                     <h2 className="pb-16 text-6xl tracking-tighter lg:mt-16
                     lg:text-8xl bg-gradient-to-r from-stone-300 via-slate-500
                      to-red-600 bg-clip-text tracking-tighter
-                    text-transparent ">Jaykant Yadav</h2>
+                    text-transparent animate-bounce ">Jaykant Yadav</h2>
                     <span className="bg-gradient-to-r from-pink-300 via-slate-500
                      to-purple-500 bg-clip-text text-4xl tracking-tight
                     text-transparent">Java & FullStack Developer</span>

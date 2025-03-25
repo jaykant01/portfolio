@@ -2,7 +2,7 @@ import {PROJECTS} from "../constants/index.js";
 
 const Projects = () => {
     return (
-        <div className="border-b border-neutral-900 pb-4">
+        <div id="Projects" className="border-b border-neutral-900 pb-4">
             <h1 className="my-20 text-center text-5xl">Projects</h1>
             <div>
                 {PROJECTS.map((project, index) => (

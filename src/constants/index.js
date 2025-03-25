@@ -1,5 +1,6 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.webp";
+import project3 from "../assets/projects/project-3.webp";
 
 export const LINKS = [
   { href: "#Hero", label: "Home" },
@@ -9,15 +10,13 @@ export const LINKS = [
   { href: "#Contact", label: "Contact" },
 ];
 
-export const ABOUT_TEXT = `BTech Computer Science & Engineering | 3rd year Student at GLA University | Data Structures & Algorithms(JAVA) | Currently Learning FullStack-development 
-
-Trying My Problem Solving Skill on LeetCode | CodeForces.
-
+export const ABOUT_TEXT = `Hi, I'm Jaykant, a passionate BTech Computer Science & Engineering student in 3rd year at GLA University. I have a strong background in software development and problem-solving, with a particular focus on Data Structures & Algorithms (JAVA) and Full Stack Development.
 Completed Basics of AWS CLOUD COMPUTING - EC2, S3, VPC, IAM | and also looking forward to do more in cloud computing.
-
-Exploring Linux & Debian for Knowledge purpose.
-
-Like to play basket ball & Music`;
+I’m passionate about exploring new technologies and building solutions that make a difference. Whether it's creating a responsive web app, optimizing backend performance, or integrating complex APIs, I thrive on tackling challenges head-on.
+When I'm not coding, you can find me exploring new tech trends, contributing to open-source projects, or sharpening my problem-solving skills on platforms like LeetCode and Codeforces.
+Also Exploring Linux & Debian for Knowledge purpose.
+Like to play basket ball & Music
+Let's connect and create something amazing together!`;
 
 export const PROJECTS = [
   {
@@ -33,6 +32,13 @@ export const PROJECTS = [
     description:
         "A personal portfolio website showcasing projects, skills, Download resume,and contact information.",
     technologies: ["HTML", "Tailwind CSS", "React", "Vite"],
+  },
+  {
+    title: "Angular Project Setup CLI",
+    image: project3,
+    description:
+        "ng-setup is a simple and powerful CLI tool that helps developers set up an Angular project quickly with Tailwind CSS, Firebase, and different styling options.",
+    technologies: ["Javascript"],
   },
 ];
 

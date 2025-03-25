@@ -7,7 +7,9 @@ import Contact from "./components/Contact.jsx";
 import { ReactLenis } from 'lenis/react'
 import 'lenis/dist/lenis.css'
 
+
 const App = () => {
+
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
       <div className="fixed inset-0 -z-10">
