@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.webp";
 import project3 from "../assets/projects/project-3.webp";
 
+
 export const LINKS = [
   { href: "#Hero", label: "Home" },
   { href: "#About", label: "About Me" },
@@ -24,14 +25,14 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional website with features like Add, Delete, favourite contacts, and user authentication.",
-    technologies: ["HTML", "Tailwind CSS", "Angular", "FireBase", "MongoDB"],
+    technologies: ["HTML", "Tailwind CSS", "Angular", "JWT", "MongoDB", "Node.js"],
   },
   {
     title: "Portfolio Website",
     image: project2,
     description:
-        "A personal portfolio website showcasing projects, skills, Download resume,and contact information.",
-    technologies: ["HTML", "Tailwind CSS", "React", "Vite"],
+        "A personal portfolio website showcasing projects, skills, Download resume,and contact information with Integrated Email service.",
+    technologies: ["HTML", "Tailwind CSS", "React", "Vite", "Node.js"],
   },
   {
     title: "Angular Project Setup CLI",
